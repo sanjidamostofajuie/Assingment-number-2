@@ -163,7 +163,108 @@ text-color{
 .ham-burger {
     display: none;
 }
+/* some habit related styles */
 
+.bg-size{
+    width: 1050px;
+    height:500px;
+   /* border:1px solid wheat;*/
+    margin:0 auto;
+    margin-top:-160px;
+}
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    margin-bottom: 50px;
+
+}
+.fact-content{
+    max-width:570px;
+    height:120px;
+    color:wheat;
+    margin: 0 auto;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.section-title{
+    font-size:2.5rem;
+    font-weight:600;
+}
+.fact-description{
+    font-weight:200px;
+    font-size: 15px;
+}
+
+.fact-text{
+    font-weight: 100px;
+    font-size: 10px;
+}
+.fact-card{
+   /* border: 1px solid white;*/
+    width: 231px;
+    height: 284px;
+    border-radius: 8px;
+    color: beige;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.font-text{
+    font-size: 18px;
+
+}
+.fact-icon{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+/* some mile easy related style*/
+.mile-easy{
+    width: 1060px;
+    height: 371px;
+   /* border: 1px solid wheat;*/
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: #222222;
+    flex-direction: row;
+    text-align:justify;
+    align-items:center;
+    justify-content: space-around;
+}
+.run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 28px;
+}
+.mile-easy-content{
+    width: 443px;
+    height: 290px;
+   /* border: 1px solid wheat;*/
+    color: bisque;
+}
+.mile-easy-title{
+    font-weight: 600px;
+    font-size: 2.5rem;
+}
+/*some calculator related style */
+.calculatur-part{
+    width: 671px;
+    height: 120px;
+   /* border:1px solid wheat;*/
+    margin: 0 auto;
+    margin-bottom: 200px;
+    text-align: justify;
+    color: bisque;
+
+}
 
 
 
