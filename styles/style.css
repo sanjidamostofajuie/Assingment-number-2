@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.alex-brush-regular {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+   {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* shared all style*/
+.website-bg-color{
+    background-color: black;
+}
+.display-flex{
+    display: flex;
+}
+text-color{
+    color:white;
+}
+.bg-light{
+    background-color: black;
+}
+.btn-primary{
+    background-color: #E6533C;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border:none;
+}
+.btn-normal{
+    background-color:black;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1rem ;
+    font-weight: 600;
+    border-color: wheat;
+    border-radius: 8px;
+    
+
+}
+/* header style */
+
+/* navbar related style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.brand{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:#E6533C ;
+    margin-left: 40px;
+}
+.nav-links{
+    font-weight: 500;
+
+}
+    
+.nav-item,.nav-item-link{
+    list-style: none;
+    margin-right: 30px;
+    
+    color: #ffff;
+    
+
+}
+.nav-item-link{
+    background-color: #E6533C;
+    color: aliceblue;
+    padding: 8px 10px;
+    font-size:1rem;
+    font-weight: 500;
+    border-radius: 8px;
+
+}
+.navbar, .banner{
+    width: 1060px;
+    margin: 0 auto;
+}
+/* banner-related-styles */
+.banner{
+    gap:250px;
+}
+.banner-title{
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.banner-img{
+     width: 100%;
+}
+.banner-description{
+    color: white;
+    text-align: justify;
+}
+.banner-content{
+    max-width: 520px;
+    margin:0 auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.frist-position{
+    width: 193px;
+    height: 98px;
+    color: white;
+    text-align:center;
+    background-color:rgb(41, 48, 57);
+    position:relative;
+    top:-490px;
+    left:220px;
+    border-radius: 12px;
+}
+
+.position{
+   /* border: 2px solid white;*/
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    position:relative;
+    top: -250px;
+    left:-100px;
+    background-color: #E6533C;
+}
+.second-position{
+    width: 206px;
+    height: 96px;
+    color: antiquewhite;
+    text-align: center;
+    background-color: #30303095;
+    border-radius: 12px;
+    position: relative;
+    top: -340px;
+    left:-110px;
+}
+.ham-burger {
+    display: none;
+}
+
+
+
+
