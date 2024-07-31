@@ -43,6 +43,9 @@ text-color{
 .bg-light{
     background-color: black;
 }
+.bg-color{
+    background-color: #463d3d;
+}
 .btn-primary{
     background-color: #E6533C;
     color: white;
@@ -260,11 +263,69 @@ text-color{
     height: 120px;
    /* border:1px solid wheat;*/
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
     text-align: justify;
     color: bisque;
 
 }
 
+/* some team related style*/
+.team-container{
+    width:691px ;
+    height:782px ;
+   /* border: 1px solid wheat;*/
+    margin: 0 auto;
+}
+.team-content{
+    width: 671px;
+    height: 129px;
+    /*border: 1px solid wheat;*/
+    margin: 0 auto;
+    color: bisque;
+    text-align: center;
+}
+.team-title{
+    font-weight: 600px;
+    font-size: 2rem;
+}
+.team-description{
+    font-weight: 80px;
+    font-size: 15px;
+}
+.trainer-bg{
+    width:691 ;
+    height:604 ;
+   /* border: 1px solid wheat;*/
+    margin: o auto;
+    background-color: #dec1c1;
+}
+.team-work-img{
+    width: 691px;
+    height:630px;
+   /* border: 1px solid wheat;*/
+    margin: 0 auto;
+    background-color: #282323;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+}
+.team-img{
+    width: 210px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 18px;
+    gap:10px;
+    position: relative;
+    
+}
+.tows{
+    color:antiquewhite;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+    z-index:1;
 
-
+}
