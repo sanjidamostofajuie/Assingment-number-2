@@ -389,6 +389,7 @@ footer{
 /* end footer section */
 /* responsive media query */
 @media screen and (max-width:576px) {
+    /* frist banner section */
     .navbar , .banner{
         width: 353px;
         margin: 0 auto;
@@ -443,17 +444,19 @@ footer{
         top:-470px;
         left:20px;
     }
+    /* end frist section */
+    /* second main section */
     .bg-size{
         width:338px ;
         height:1398px ;
-        border: 2px solid wheat;
+        /*border: 2px solid wheat;*/
         margin: 0 auto;
         gap:30px;
     }
     .section-title{
         width: 318px;
         height: 38px;
-        border: 2px solid wheat;
+        /*border: 2px solid wheat;*/
         margin: 0 auto;
         font-size: 2rem;
         font-weight: 600px;
@@ -466,8 +469,32 @@ footer{
         justify-content: center;
 
     }
+    /* end second main section */
+    /* third mile easy section */
     .mile-easy{
-    
+        width: 353px;
+        height: 531px;
+       /* border: 2px solid wheat;*/
+        margin: 0 auto;
+        flex-direction: column;
+        background-color: #282323;
+        border-radius: 20px;
+        
+    }
+    .mile-easy-content{
+        width:287px;
+        height:264px ;
+        /*border: 2px solid wheat;*/
+        margin: 0 auto;
+    }
+    .btn-primary{
+        width: 287px;
+        height: 54px;
+        border-radius: 12px;
+    }
+    .run-img{
+        width:287px ;
+        height: 170px;
     }
 
     
