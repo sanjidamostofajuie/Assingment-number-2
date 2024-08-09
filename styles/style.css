@@ -55,6 +55,15 @@ text-color{
     border-radius: 8px;
     border:none;
 }
+.btn-primary2{
+    background-color: #E6533C;
+    color: aliceblue;
+    padding:20px 25px ;
+    font-size:1rem ;
+    font-weight:600px ;
+    border-radius: 8px;
+    border:none;
+}
 .btn-normal{
     background-color:black;
     color: white;
@@ -487,7 +496,7 @@ footer{
         /*border: 2px solid wheat;*/
         margin: 0 auto;
     }
-    .btn-primary{
+    .btn-primary2{
         width: 287px;
         height: 54px;
         border-radius: 12px;
