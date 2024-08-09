@@ -126,8 +126,8 @@ text-color{
 .banner-content{
     max-width: 520px;
     margin:0 auto;
-    text-align: center;
-    justify-content: space-around;
+    text-align:justify;
+    justify-content:;
 }
 .frist-position{
     width: 193px;
@@ -174,6 +174,7 @@ text-color{
    /* border:1px solid wheat;*/
     margin:0 auto;
     margin-top:-160px;
+    
 }
 .facts-container{
     display: grid;
@@ -379,5 +380,70 @@ footer{
 .last-div{
     margin-top:120px;
 }
+.ham-burger{
+    display: none;
+}
 /* end footer section */
+/* responsive media query */
+@media screen and (max-width:576px) {
+    .navbar , .banner{
+        width: 353px;
+        margin: 0 auto;
+    }
+    .nav-links{
+        display: none;
+    }
+    .ham-burger{
+        display: block;
+        color: antiquewhite;
+    }
+    .banner{
+        height: 1024px;
+        /*border: 2px solid wheat;*/
+        margin:0 auto ;
+        display: grid;
+        gap: 2px;
+    }
+    .banner-content{
+        max-width: 343px;
+        height: 335px;
+        /*border: 2px solid wheat;*/
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-title{
+        width: 285px;
+        /*border: 2px solid wheat;*/
+        margin: 0 auto;
+        font-size: 2rem;
+        font-weight: 500px;
+        text-align: justify;
+    }
+    .banner-description{
+        width: 274px;
+    }
+    .banner-img{
+        width: 353px;
+        height: 588px;
+       /* border: 2px solid wheat;*/
+    }
+    .frist-position{
+        width: 145.91px;
+        height: 74.09px;
+        top:-540px;
+        left: 190px;
+        text-align:center;
+    }
+    .second-position{
+        width: 155.74px;
+        height: 72.58px;
+        top:-470px;
+        left:20px;
+    }
+    .bg-size{
+        gap:30px;
+    }
+
+    
+}
 
