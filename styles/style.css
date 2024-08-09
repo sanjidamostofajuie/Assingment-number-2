@@ -383,6 +383,9 @@ footer{
 .ham-burger{
     display: none;
 }
+.hide{
+    display:hide;
+}
 /* end footer section */
 /* responsive media query */
 @media screen and (max-width:576px) {
@@ -441,7 +444,30 @@ footer{
         left:20px;
     }
     .bg-size{
+        width:338px ;
+        height:1398px ;
+        border: 2px solid wheat;
+        margin: 0 auto;
         gap:30px;
+    }
+    .section-title{
+        width: 318px;
+        height: 38px;
+        border: 2px solid wheat;
+        margin: 0 auto;
+        font-size: 2rem;
+        font-weight: 600px;
+    }
+    .facts-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .mile-easy{
+    
     }
 
     
