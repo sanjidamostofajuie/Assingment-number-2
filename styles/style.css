@@ -547,8 +547,50 @@ footer{
         display: none;
     }
     footer{
+        width: 400px;
+        height: 986px;
+        /*border: 2px solid wheat;*/
         margin-top: 2100px;
+        background-color: black;
+        text-align: justify;
     }
+    .fitness-footer{
+        width:360px ;
+        height:742px ;
+        /*border: 2px solid wheat;*/
+        display: grid;
+
+    }
+    .brand{
+        width:256px;
+        height: 84px;
+        /*border: 2px solid wheat;*/
+        font-size:4.5rem ;
+        font-weight: 700;
+        margin-left:10px;
+
+    }
+    .brand-description{
+        width: 320px;
+        height: 96px;
+       /* border: 2px solid wheat;*/
+        margin-top: -15px;
+        margin-left: -5px;
+    }
+    .fitness-list1,.fitness-list2{
+        width:181px ;
+        height: 249px;
+        /*border: 2px solid wheat;*/
+        margin-left: -5px;
+        margin-top: 80px;
+    }
+    .fitness-list2{
+        margin-top:-10px ;
+    }
+    .last-div{
+        margin-top: -10px;
+    }
+
 
 
     
