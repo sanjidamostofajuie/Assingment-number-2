@@ -425,15 +425,17 @@ footer{
         text-align: center;
     }
     .banner-title{
-        width: 285px;
-        /*border: 2px solid wheat;*/
+        width: 235px;
+       /* border: 2px solid wheat;*/
         margin: 0 auto;
+        margin-left:-5px;
         font-size: 2rem;
         font-weight: 500px;
-        text-align: justify;
+        text-align:start;
     }
     .banner-description{
         width: 274px;
+
     }
     .banner-img{
         width: 353px;
@@ -505,6 +507,17 @@ footer{
         width:287px ;
         height: 170px;
     }
+    /* end third section */
+    /* forth section */
+    .calculatur-part{
+        width:323px ;
+        height:124px ;
+       /* border: 2px solid wheat;*/
+        margin: 0 auto;
+    }
+    /* end forth section */
+    
+
 
     
 }
