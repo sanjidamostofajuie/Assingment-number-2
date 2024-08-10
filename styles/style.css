@@ -419,9 +419,10 @@ footer{
     }
     .banner-content{
         max-width: 343px;
-        height: 335px;
+        height: 315px;
         /*border: 2px solid wheat;*/
         margin: 0 auto;
+        margin-left: 8px;
         text-align: center;
     }
     .banner-title{
@@ -446,7 +447,7 @@ footer{
         width: 145.91px;
         height: 74.09px;
         top:-540px;
-        left: 190px;
+        left:190px;
         text-align:center;
     }
     .second-position{
@@ -487,6 +488,7 @@ footer{
         height: 531px;
        /* border: 2px solid wheat;*/
         margin: 0 auto;
+        margin-left:-10px;
         flex-direction: column;
         background-color: #282323;
         border-radius: 20px;
@@ -508,15 +510,45 @@ footer{
         height: 170px;
     }
     /* end third section */
-    /* forth section */
+    /* forth section start here */
     .calculatur-part{
         width:323px ;
         height:124px ;
        /* border: 2px solid wheat;*/
         margin: 0 auto;
+        margin-left: 20px;
+        margin-top: 20px;
     }
     /* end forth section */
-    
+    /* trainer section start here */
+    .team-content{
+        width:309px;
+        height:154px ;
+       /* border: 2px solid wheat;*/
+        gap:5px;
+        margin:0 auto;
+        margin-left:10px;
+    }
+    .team-work-img{
+        width:320px;
+        height: 1188px;
+       /* border: 2px solid wheat;*/
+        margin: 0 auto;
+        margin-left:-2px;
+        border-radius: 20px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2px;
+    }
+    .team-img{
+        width:290px ;
+        height: 270px;
+    }
+    .hide-img{
+        display: none;
+    }
+    footer{
+        margin-top: 2100px;
+    }
 
 
     
