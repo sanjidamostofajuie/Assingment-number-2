@@ -429,6 +429,8 @@ footer{
         width: 235px;
        /* border: 2px solid wheat;*/
         margin: 0 auto;
+        font-size:3.5rem;
+        font-weight: 800px;
         margin-left:-5px;
         font-size: 2rem;
         font-weight: 500px;
@@ -576,6 +578,11 @@ footer{
        /* border: 2px solid wheat;*/
         margin-top: -15px;
         margin-left: -5px;
+    }
+        .fonts{
+        font-size: 14px;
+        font-weight: 100;
+        color:#ffffff9b ;
     }
     .fitness-list1,.fitness-list2{
         width:181px ;
