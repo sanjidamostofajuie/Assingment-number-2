@@ -72,8 +72,15 @@ text-color{
     font-weight: 600;
     border-color: wheat;
     border-radius: 8px;
-    
-
+}
+.btn{
+    background-color: #E6533C;
+    color: antiquewhite;
+    padding: 20px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
 }
 /* header style */
 
@@ -278,7 +285,58 @@ text-color{
     color: bisque;
 
 }
+/* some form related style*/
+.calculate-BMI-section{
+    width: 1420px;
+    height: 486px;
+   /* border: 2px solid wheat;*/
+    margin: 0 auto;
+    margin-left:-150px;
+    background-color: #222222;
+    display: flex;
+    flex-direction:row;
+}
+.form-container{
+    width:50%;
+   /* border: 2px solid wheat;*/
+    color: aliceblue;
+}
+.calculate-BMI{
+    width:50% ;
+   /* border: 2px solid wheat;*/
+    color: aliceblue;
 
+}
+.calculate-BMI-chart{
+    width: 577px;
+    height: 386px;
+   /* border: 2px solid wheat;*/
+    margin-top:40px ;
+}
+
+
+#decoration{
+    color: #e7d8d8;
+    background-color: rgb(86, 91, 96);
+    
+}
+/*
+#calculate-chart-title{
+    width: 443px;
+    height: 34px;
+    border: 2px solid wheat;
+    margin: 0 auto;
+    margin-left: 300px;
+}*/
+.calculate-table{
+    width:510px;
+    height: 386px;
+    /*border: 2px solid wheat;*/
+    margin-top: 40px;
+    margin-left: 310px;
+    padding: 5px 5px;
+}
+/* end BMI calculate */
 /* some team related style*/
 .team-container{
     width:691px ;
@@ -345,7 +403,7 @@ footer{
     height:489px;
     /*border: 1px solid whitesmoke;*/
     margin: 0 auto;
-    margin-top:1600px;
+    margin-top:2200px;
     background-color: rgb(39, 34, 34);
 }
 .fitness-footer{
@@ -552,7 +610,7 @@ footer{
         width: 400px;
         height: 986px;
         /*border: 2px solid wheat;*/
-        margin-top: 2100px;
+        margin-top: 2800px;
         background-color: black;
         text-align: justify;
     }
@@ -598,7 +656,22 @@ footer{
         margin-top: -10px;
     }
 
-
+/* responsive calculate BMI section */
+.calculate-BMI-section{
+    width: 394px;
+    height: 762px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.calculate-table{
+    margin-left: 20px;
+}
+.calculate-BMI-chart{
+    width:354px ;
+    height: 395px;
+    /*border: 2px solid wheat;*/
+    margin-top:-150px ;
+}
 
     
 }
